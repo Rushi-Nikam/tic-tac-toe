@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.info{
+  margin-top: 50px;
+}
+
+.row-board{
+  display: flex;
+  justify-content: center;
+}
+
+Button{
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+  background-color: black;
+  align-items: center;
+  color: white;
+  font-size: 32px;
+}
+
+.Board{
+  justify-content: center;
+}
+
+.status{
+  font-size: 23px;
+  display: flex;
+  margin-bottom:  12px ;
+  justify-content: center;
 }
